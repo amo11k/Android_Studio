@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:id="@+id/barrelLayout">
 
     </es.ieselcaminas.amo11k.russianroulete2.Barrel>
 
@@ -20,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="Reload Gun"
         android:id="@+id/bReload"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:enabled="false" />
 
     <FrameLayout
         android:layout_width="match_parent"
